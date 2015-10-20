@@ -646,7 +646,7 @@ label.line{
 }
 /*----*/
 .content-bottom{
-	  background: url(../images/back.jpg) center ;
+	  background: url(../images/Img2.jpg) center ;
   width: 100%;
   min-height: 335px;
   display: block;
@@ -654,7 +654,7 @@ label.line{
   text-align: center;
 }
 .content-bottom p{
-	color:#fff;
+	color:black;
 	font-size: 2.8em;
 	  font-family: 'Roboto Slab', serif;
 	  width:90%;
@@ -663,7 +663,7 @@ label.line{
 	    line-height: 1.5em;
 }
 .content-bottom span{
-	color:#fff;
+	color:black;
 	font-size: 3em;	 
 	 margin: 0.1em 0 0;
   display: block;
