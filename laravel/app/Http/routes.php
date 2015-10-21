@@ -22,5 +22,5 @@ Route::get('/', function () {
 }); 
 
 Route::resource('categoria','CategoriaControlador');*/
-Route::get('/','web@index');
+Route::get('/','procatalogo@index');
 Route::get('iniciarsesion','procatalogo@iniciarsesion');
