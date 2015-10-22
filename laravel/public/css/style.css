@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
-	background:#fff;
+	background:rgba(49, 112, 143, 0);
 	font-family: 'Lato', sans-serif;
 }
 body a{
@@ -82,10 +82,10 @@ h1,h2,h3,h4,h5,h6,label,p{
   display: inline-block;
 }
 .header{
-	background: url(../images/coffee-791612_1920.jpg) no-repeat center;
+	background: url(../images/fondo.jpg) no-repeat center;
 	width:100%;
 	background-size:cover;
-	min-height: 750px;
+	min-height: 300px;
 	display: block;
 }
 .header-top{
@@ -325,20 +325,20 @@ ul.support-right li i.tele{
 	font-weight: 300;
 }
 a.morebtn{
-	background:#ff5d56;
+	background:rgba(57, 82, 177, 0.69);
 	padding:0.2em 0;
 	display:block;
 	font-size:1.7em;
 	color:#FFF;
-	width:40%;
+	width:14%;
 	margin:0 auto;
-	float: left;
-	border: 1px solid #ff5d56;
+	float: right;
+	border: 1px solid #151414;
 	text-align: center;
 	text-decoration: none;
 }
 a.morebtn:hover{
-	background: none;
+	background: rgba(57, 82, 177, 0.69);
 	border: 1px solid #000;
 	color:#000;
 }
@@ -352,8 +352,8 @@ a.at-in{
   margin: 1em 0 0 20em;
 }
 a.at-in:hover{
-	background: #ff5d56;
-	border: 1px solid #ff5d56;
+	background: rgba(57, 82, 177, 0.69);;
+	border: 1px solid #151414;
 	color:#fff;
 }
 /*----*/
@@ -395,7 +395,7 @@ a.shoe h3{
   	right: 0;
 }
 .content-top {
-  padding: 3em 0;
+  padding: 2em 0;
 }
 .col-top-bottom{
 	background: #696767;
@@ -526,7 +526,7 @@ h2.resp-accordion {
 	padding:2em 1em;
 }
 .img-top {
-	float: left;
+	float:right;
 	width: 33.33%;
 	  position: relative;
 }
@@ -625,7 +625,7 @@ span.dollor{
   display: inline-block;
 }
 .agency {
-  padding: 15em 0 0;
+  padding: 5em 0 0;
 }
 .img-top:hover .tab_desc{
 	display: block;
@@ -941,7 +941,7 @@ span.price-in small{
 	display: inline-block;
 }
 .footer-bottom {
-  margin: 4em 0 0;
+  margin: 1em 0 0;
 }
 .indo {
   padding: 1em 0em 0 3em;
@@ -951,7 +951,7 @@ span.price-in small{
 	float:left;
 }
 .logo-the{
-	float:right;
+	float:left;
 	  width: 65%;
 }
 .logo-the h4{

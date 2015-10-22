@@ -53,11 +53,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-top-in">
 				
 				<ul class="support">
-					<li ><a href="mailto:info@example.com" ><i > </i>info@example.com</a></li>
-					<li ><span ><i class="tele-in"> </i>0 462 261 61 61</span></li>			
+					<li ><a href="mailto:info@example.com" ><i > </i></a></li>
+					<li ><span ><i class="tele-in"> </i> (502) 77611752.</span></li>			
 				</ul>
-				<ul class=" support-right">
-					<li ><a href="account.html" ><i class="men"> </i>Iniciar sesion</a></li>
+				<ul class=" support-right"> 
+					<li ><a href="iniciarsesion.php" ><i class="men"> </i>Iniciar sesion</a></li> <!--referencia a plantilla login-->
 					</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -65,12 +65,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-bottom">
 			<div class="container">			
 				<div class="logo">
-					<h1><a href="index.html">Zrokbox</a></h1>
+					<h1><a href="index.php">Zrokbox</a></h1>
 				</div>
 				<div class="top-nav">
 				<!-- start header menu -->
 		<ul class="megamenu skyblue">
-			<li><a  href="index.html">Inicio</a></li>
+			<li><a  href="index.php">Inicio</a></li>
 			
 			<li class="active grid"><a  href="#">Catalogo</a>
 				<div class="megapanel">
@@ -141,7 +141,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="cart box_1">
 						<a href="checkout.html">
 						<h3> <div class="total">
-							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> artículos)</div>
 							<img src="images/cart.png" alt=""/></h3>
 						</a>
 						<div class="clearfix"> </div>
@@ -214,9 +214,9 @@ presentaciones .</span></p>
 			<h2>Ofertas</h2>	
 						 <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 						  <ul class="resp-tabs-list">
-						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Pinturas</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Cintas</span></li>
-							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Ceras</span></li>
+						  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Plus</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Golden</span></li>
+							  <li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span>Simple</span></li>
 							  <div class="clearfix"></div>
 						  </ul>				  	 
 							<div class="resp-tabs-container">
@@ -226,30 +226,30 @@ presentaciones .</span></p>
 										
 					   		  			   <img src="images/imagen2.jpg" class="img-responsive" alt=""/>
 											
-								              <div class="tab_desc">
-												 <ul class="round-top">
+								              <div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 	<div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<!--h6 class="jean">BAJU JEANS</h6>
+														<span class="dollor item_price">$50.00</span-->
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
-														</ul>
-														<ul class="social-in">
+														</ul-->
+														<!--ul class="social-in">
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
@@ -259,7 +259,7 @@ presentaciones .</span></p>
 										<div class="img-top simpleCart_shelfItem">
 										  
 					   		  			   <img src="images/imagen4.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
+											<!--div class="tab_desc">
 												 <ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
@@ -286,28 +286,28 @@ presentaciones .</span></p>
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
-											  </div>
+											  </div-->
 											  <div class="col-in">
-											  	<p>NEW</p>
+											  	<!--p>NEW</p-->
 											  </div>
 											 </div>
 											  <div class="img-top simpleCart_shelfItem">
 										  
 					   		  			   <img src="images/imagen6.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
-												 	<li><a href="#"><i> </i></a></li>
+											<!--div class="tab_desc"-->
+												 <!--ul class="round-top"-->
+												 	<!--li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 <div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"></h6>
+														<!--span class="dollor item_price">$50.00</span-->
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -317,13 +317,13 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
 											  </div>
 											 <div class="col-in col-in-1">
-											  	<p>SALE <span>30%</span></p>
+											  	<!--p>SALE <span>30%</span></p-->
 											  </div>
 											</div>
 											<div class="clearfix"></div>
@@ -334,22 +334,22 @@ presentaciones .</span></p>
 									<div class="tab_img">
 									  <div class="img-top simpleCart_shelfItem">
 										
-					   		  			   <img src="images/pi9.jpg" class="img-responsive" alt=""/>
+					   		  			   <img src="images/imagen11.jpg" class="img-responsive" alt=""/>
 											
-								              <div class="tab_desc">
-												 <ul class="round-top">
+								              <div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 <div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
+														<!--h6 class="jean">BAJU JEANS</h6>
 														<span class="dollor item_price">$50.00</span>
-														<div class="clearfix"> </div>
+														<div class="clearfix"> </div-->
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -359,7 +359,7 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
@@ -368,21 +368,21 @@ presentaciones .</span></p>
 										</div>
 										<div class="img-top simpleCart_shelfItem">
 										  
-					   		  			   <img src="images/pi8.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
+					   		  			   <img src="images/imagen10.jpg" class="img-responsive" alt=""/>
+											<div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 <div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"></h6>
+														<span class="dollor item_price"></span>
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -392,31 +392,31 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
 											  </div>
-											  <div class="col-in">
-											  	<p>NEW</p>
+											  <div class="">
+											  	<p></p>
 											  </div>
 											 </div>
 											  <div class="img-top simpleCart_shelfItem">
 										  
-					   		  			   <img src="images/pi10.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
+					   		  			   <img src="images/imagen9.jpg" class="img-responsive" alt=""/>
+											<div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 <div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"></h6>
+														<span class="dollor item_price"></span>
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -426,13 +426,13 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
 											  </div>
-											 <div class="col-in col-in-1">
-											  	<p>SALE <span>30%</span></p>
+											 <div class="">
+											  	<p> <span></span></p>
 											  </div>
 											</div>
 											<div class="clearfix"></div>
@@ -443,22 +443,22 @@ presentaciones .</span></p>
 									<div class="tab_img">
 									  <div class="img-top simpleCart_shelfItem">
 										
-					   		  			   <img src="images/pi5.jpg" class="img-responsive" alt=""/>
+					   		  			   <img src="images/imagen13.jpg" class="img-responsive" alt=""/>
 											
-								              <div class="tab_desc">
-												 <ul class="round-top">
+								              <div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 <div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"></h6>
+														<span class="dollor item_price"></span>
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -468,7 +468,7 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
@@ -477,21 +477,21 @@ presentaciones .</span></p>
 										</div>
 										<div class="img-top simpleCart_shelfItem">
 										  
-					   		  			   <img src="images/pi6.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
+					   		  			   <img src="images/imagen14.jpg" class="img-responsive" alt=""/>
+											<div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 	<div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"></h6>
+														<span class="dollor item_price"></span>
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -501,32 +501,32 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
 											  </div>
-											  <div class="col-in">
-											  	<p>NEW</p>
+											  <div class="">
+											  	<p></p>
 											  </div>
 											 </div>
 											  <div class="img-top simpleCart_shelfItem">
 										  
-					   		  			   <img src="images/pi7.jpg" class="img-responsive" alt=""/>
-											<div class="tab_desc">
-												 <ul class="round-top">
+					   		  			   <img src="images/imagen15.jpg" class="img-responsive" alt=""/>
+											<div class="">
+												 <!--ul class="round-top">
 												 	<li><a href="#"><i> </i></a></li>
 												 	<li><a href="#"><i class="round"> </i></a></li>
-												 </ul>
+												 </ul-->
 												 
 												 	<div class="agency ">
 													<div class="agency-left">
-														<h6 class="jean">BAJU JEANS</h6>
-														<span class="dollor item_price">$50.00</span>
+														<h6 class="jean"> </h6>
+														<span class="dollor item_price"></span>
 														<div class="clearfix"> </div>
 													</div>
 													<div class="agency-right">
-														<ul class="social">
+														<!--ul class="social">
 															<li><a href="#"><i class="item_add"> </i></a></li>
 															<li><a href="#"><i class="text"> </i></a></li>
 														</ul>
@@ -536,13 +536,13 @@ presentaciones .</span></p>
 															<li><a href="#"><i> </i></a></li>
 															<li><a href="#"><i > </i></a></li>
 															<li><a href="#"><i > </i></a></li>
-														</ul>
+														</ul-->
 														<div class="clearfix"> </div>
 													</div>
 												 </div>
 											  </div>
-											 <div class="col-in col-in-1">
-											  	<p>SALE <span>30%</span></p>
+											 <div class="">
+											  	<p> <span></span></p>
 											  </div>
 											</div>
 											<div class="clearfix"></div>
@@ -557,11 +557,13 @@ presentaciones .</span></p>
 	<!---->
 		<div class="content-bottom">
 			<div class="container">
-				<p>Somos lo que hacemos día a día.
-					De modo que la excelencia no es un
-					acto, sino un hábito</p>
+				<span>¿Quienes somos?</span>
+				<p>Somos una empresa 100% Quetzalteca comprometida 
+					con el desarrollo en el ámbito de recubrimientos 
+					automotrices, marítimos y arquitectónicos.
+</p>
 <label class="line1"> </label>
-<span>Aristóteles</span>
+
 			</div>
 		</div>
 		<!---->
@@ -728,7 +730,7 @@ aliquam volutpat.</p>
 <!---->
 	<div class="footer">
 		<div class="container">
-			<div class="col-md-4 footer-top">
+			<!--div class="col-md-4 footer-top">
 				<h3>QUICK CONTACT</h3>
 				<form>
 						
@@ -744,8 +746,8 @@ aliquam volutpat.</p>
 						
 					</form>
 
-			</div>
-			<div class="col-md-4 footer-middle">
+			</div-->
+			<!--div class="col-md-4 footer-middle">
 				<h3>TOP RATED PRODUCTS</h3>
 					<div class="product-go">
 							<div class="grid-product">
@@ -802,25 +804,25 @@ aliquam volutpat.</p>
 							<div class="clearfix"> </div>
 							</div>
 
-			</div>
+			</div-->
 			<div class="col-md-4 footer-bottom">
 				<div class="logo-footer">
 					<div class="logo-bottom">
-						<a href="#"><img src="images/lo.png" alt=""></a>
+						<!--a href="#"><img src="images/lo.png" alt=""></a-->
 					</div>
 					<div class="logo-the">
-						<h4>Amberegul Theme</h4>
-						<p>Was designed for opencart, magento, 
-woocommerce and prestashop platforms. 
-It is based on Bootstrap.</p>
+						<h4>Grupo Proexc</h4>
+						<p>PRODUCTOS DE EXCELENTE CALIDAD
+- TECNOLOGÍA TOTAL EN PINTURAS -.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="indo">
-				<p class="in">Bandung, Indonesia <span>40553</span></p>
+				<p class="in">Horario: Lunes-Viernes: 8:30-13:00 y 
+					14:30-18:00, Sabados: 8:30-13:00. <span></span></p>
 					<ul class="social-footer ">
-						<li><span><i> </i>+62 226759804 </span></li>
-						<li><span><i class="down"> </i>blithemes</span></li>
+						<li><span><i> </i>(502) 77611752 </span></li>
+						<li><span><i class="down"> </i>6 Av 5-01 Zona 2 Quetzaltenango, Guatemala</span></li>
 						<li><a href="mailto:info@example.com"><i class="mes"> </i>info@example.com</a></li>
 						<li><a href="#"><i class="mes-in"> </i>http://example.com</a></li>
 					</ul>

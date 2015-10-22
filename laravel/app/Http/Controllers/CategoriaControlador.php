@@ -23,9 +23,9 @@ class CategoriaControlador extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function iniciar()
     {
-        return view('categoria.create');
+        return view('index');
     }
 
     /**

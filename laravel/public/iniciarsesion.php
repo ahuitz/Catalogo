@@ -53,12 +53,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-bottom bottom-com">
 			<div class="container">			
 				<div class="logo">
-					<h1><a href="index.html">Amberegul</a></h1>
+					<h1><a href="index.php">Amberegul</a></h1>
 				</div>
 				<div class="top-nav">
 				<!-- start header menu -->
 		<ul class="megamenu skyblue menu-in">
-			<li><a  href="index.html">Home</a></li>
+			<li><a  href="index.php">Home</a></li>
 			
 			<li class="active grid"><a  href="#">Pages</a>
 				<div class="megapanel">
@@ -222,7 +222,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!---->
 <div class="container">
-	<h6 class="dress"><a href="index.html">Home</a> <i> </i> Account </h6>
+	<h6 class="dress"><a href="index.php">Home</a> <i> </i> Account </h6>
 </div>
 <div class="back">
 	<h2>ACCOUNT</h2>
@@ -345,21 +345,20 @@ sed diam nonummy nibh euismod</p>
 			<div class="col-md-4 footer-bottom">
 				<div class="logo-footer">
 					<div class="logo-bottom">
-						<a href="#"><img src="images/lo.png" alt=""></a>
+						<!--a href="#"><img src="images/lo.png" alt=""></a-->
 					</div>
 					<div class="logo-the">
-						<h4>Amberegul Theme</h4>
-						<p>Was designed for opencart, magento, 
-woocommerce and prestashop platforms. 
-It is based on Bootstrap.</p>
+						<h4>Grupo Proexc</h4>
+						<p>PRODUCTOS DE EXCELENTE CALIDAD
+- TECNOLOGÍA TOTAL EN PINTURAS -.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
 				<div class="indo">
-				<p class="in">Bandung, Indonesia <span>40553</span></p>
+				<p class="in">Horario: Lunes-Viernes: 8:30-13:00 y 14:30-18:00, Sabados: 8:30-13:00. <span></span></p>
 					<ul class="social-footer ">
-						<li><span><i> </i>+62 226759804 </span></li>
-						<li><span><i class="down"> </i>blithemes</span></li>
+						<li><span><i> </i> (502) 77611752 </span></li>
+						<li><span><i class="down"> </i>6 Av 5-01 Zona 2 Quetzaltenango, Guatemala</span></li>
 						<li><a href="mailto:info@example.com"><i class="mes"> </i>info@example.com</a></li>
 						<li><a href="#"><i class="mes-in"> </i>http://example.com</a></li>
 					</ul>

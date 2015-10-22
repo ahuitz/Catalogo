@@ -24,3 +24,4 @@ Route::get('/', function () {
 Route::resource('categoria','CategoriaControlador');*/
 Route::get('/','procatalogo@index');
 Route::get('iniciarsesion','procatalogo@iniciarsesion');
+Route::get('procatalogo','iniciarsesion@procatalogo');
