@@ -40,12 +40,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<div class="header-top-in grid-1">
 				<ul class="support">
-					<li ><a href="mailto:info@example.com" ><i > </i>info@example.com</a></li>
-					<li ><span ><i class="tele-in"> </i>0 462 261 61 61</span></li>			
+					<li ><a href="mailto:info@example.com" ><i > </i></a></li>
+					<li ><span ><i class="tele-in"> </i> (502) 77611752.</span></li>			
 				</ul>
 				<ul class=" support-right">
-					<li ><a href="account.html" ><i class="men"> </i>Login</a></li>
-					<li ><a href="account.html" ><i class="tele"> </i>Create an Account</a></li>			
+					<li ><a href="iniciarsesion.php" ><i class="men"> </i>Iniciar sesión</a></li>
+					<li ><a href="iniciarsesion.php" ><i class="tele"> </i></a></li>			
 				</ul>
 				<div class="clearfix"> </div>
 			</div>
@@ -53,51 +53,51 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="header-bottom bottom-com">
 			<div class="container">			
 				<div class="logo">
-					<h1><a href="index.php">Amberegul</a></h1>
+					<h1><a href="index.php">Zrokbox</a></h1>
 				</div>
 				<div class="top-nav">
 				<!-- start header menu -->
 		<ul class="megamenu skyblue menu-in">
-			<li><a  href="index.php">Home</a></li>
+			<li><a  href="index.php">Inicio</a></li>
 			
-			<li class="active grid"><a  href="#">Pages</a>
+			<li class="active grid"><a  href="#">Catálogo</a>
 				<div class="megapanel">
 					<div class="row">
 						<div class="col1">
 							<div class="h_nav">
-								<h4>SUBMENU1</h4>
+								<h4>Categorias</h4>
 								<ul>
-									<li><a href="about.html">About</a></li>
-									<li><a href="product.html">men</a></li>
-									<li><a href="product.html">women</a></li>
-									<li><a href="product.html">accessories</a></li>
+									<li><a href="about.html"></a></li>
+									<li><a href="product.html">Cintas</a></li>
+									<li><a href="product.html">Ceras</a></li>
+									<li><a href="product.html">accessorios</a></li>
 									
 								</ul>	
 							</div>							
 						</div>
 						<div class="col1">
 							<div class="h_nav">
-								<h4>SUBMENU2</h4>
+								<h4>Pinturas</h4>
 								<ul>
-									<li><a href="product.html">trends</a></li>
-									<li><a href="product.html">sale</a></li>
-									<li><a href="product.html">style videos</a></li>
-									<li><a href="product.html">accessories</a></li>
-									<li><a href="product.html">kids</a></li>
-									<li><a href="product.html">style videos</a></li>
+									<li><a href="product.html">Jarrillas</a></li>
+									<li><a href="product.html">Pistolas</a></li>
+									<li><a href="product.html">Tiner</a></li>
+									<li><a href="product.html">Brochas</a></li>
+									<li><a href="product.html">Pastas</a></li>
+									<li><a href="product.html"></a></li>
 								</ul>	
 							</div>							
 						</div>
 						<div class="col1 col5">
-							<iframe src="https://player.vimeo.com/video/10777111?color=ffffff&title=0&byline=0&portrait=0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+							<!--iframe src="https://player.vimeo.com/video/10777111?color=ffffff&title=0&byline=0&portrait=0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe--> 
 						</div>
 						
 					</div>
 					
     				</div>
 				</li>	
-		<li ><a  href="404.html">Blog</a></li>				
-				<li><a  href="#">Products</a>
+		<!--li ><a  href="404.html"></a></li>				
+				<li><a  href="#"></a>
 				<div class="megapanel">
 					<div class="row">
 						<div class=" col-nav">
@@ -172,9 +172,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
     				</div>
-				</li>
+				</li-->
 				
-				<li><a  href="contact.html">Contact</a>
+				<li><a  href="contact.html">Contacto</a>
 					
 				</li>
 		 </ul> 
@@ -205,10 +205,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="cart box_1">
 						<a href="checkout.html">
 						<h3> <div class="total">
-							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> items)</div>
+							<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span> artículos)</div>
 							<img src="images/cart.png" alt=""/></h3>
 						</a>
-						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+						<p><a href="javascript:;" class="simpleCart_empty"></a></p>
 						<div class="clearfix"> </div>
 					</div>
 
@@ -222,34 +222,35 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!---->
 <div class="container">
-	<h6 class="dress"><a href="index.php">Home</a> <i> </i> Account </h6>
+	<h6 class="dress"><a href="index.php">Inicio</a> <i> </i>Cuenta</h6>
 </div>
 <div class="back">
-	<h2>ACCOUNT</h2>
+	<h2>Cuenta</h2>
 </div>
 		<!---->
 		<div class="container">
 		<div class="account_grid">
 			   <div class=" login-right">
-			  	<h3>REGISTERED CUSTOMERS</h3>
-				<p>If you have an account with us, please log in.</p>
+			  	<h3>Cliente Registrado</h3>
+				<p>Ingrese los datos en los siguientes campos</p>
 				<form>
 				  <div>
-					<span>Email Address</span>
+					<span>Usuario</span>
 					<input type="text"> 
 				  </div>
 				  <div>
-					<span>Password</span>
+					<span>Contraseña</span>
 					<input type="text"> 
 				  </div>
-				  <a class="forgot" href="#">Forgot Your Password?</a>
+				  <a class="forgot" href="#">¿Olvido su contraseña?</a>
 				  <input type="submit" value="Login">
 			    </form>
 			   </div>	
 			    <div class=" login-left">
-			  	 <h3>NEW CUSTOMERS</h3>
-				 <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-				 <a class="acount-btn" href="register.html">Create an Account</a>
+			  	 <h3>Nuevos clientes</h3>
+				 <p> Al crear una cuenta en nuestra tienda, usted será capaz de moverse a través del proceso de administración,
+				  almacenar múltiples productos, ver y realizar un seguimiento de sus productos en representación del catálogo.</p>
+				 <a class="acount-btn" href="register.html">Crear ceunta</a>
 			   </div>
 			
 			 </div>
@@ -259,13 +260,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="bottom-grid1">
 					
 					<div class="fit1">
-						<h3>HAPPY SHOPPING</h3>
-						<p>Lorem Ipsum sit amet consectuer adipiscing elit
-sed diam nonummy nibh euismod</p>
+						<h3>Bienvenido</h3>
+						<p></p>
 					</div>
 				</div>
 <!---->
-	<div class="footer">
+	<!--div class="footer">
 		<div class="container">
 			<div class="col-md-4 footer-top">
 				<h3>QUICK CONTACT</h3>
@@ -341,7 +341,7 @@ sed diam nonummy nibh euismod</p>
 							<div class="clearfix"> </div>
 							</div>
 
-			</div>
+			</div-->
 			<div class="col-md-4 footer-bottom">
 				<div class="logo-footer">
 					<div class="logo-bottom">
@@ -366,7 +366,7 @@ sed diam nonummy nibh euismod</p>
 					</div>
 			</div>
 			<div class="clearfix"> </div>
-			<p class="footer-class">© 2015 Amberegul All Rights Reserved | Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+			<!--p class="footer-class">© 2015 Amberegul All Rights Reserved | Template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p-->
 		</div>
 	</div>
 <!---->
