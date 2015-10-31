@@ -5,7 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
-	background:#fff;
+	background:rgba(49, 112, 143, 0);
 	font-family: 'Lato', sans-serif;
 }
 body a{
@@ -82,10 +82,10 @@ h1,h2,h3,h4,h5,h6,label,p{
   display: inline-block;
 }
 .header{
-	background: url(../images/coffee-791612_1920.jpg) no-repeat center;
+	background: url(../images/fondo.jpg) no-repeat center;
 	width:100%;
 	background-size:cover;
-	min-height: 750px;
+	min-height: 300px;
 	display: block;
 }
 .header-top{
@@ -117,7 +117,7 @@ ul.support-right{
 	vertical-align:top;
 }
 ul.support li a:hover,ul.support-right li a:hover{
-	color:#ff5d56;
+	color:#1B242F;
 }
 ul.support li i,ul.support-right li i{
 	background: url(../images/img-sprite.png) -104px -9px;
@@ -325,20 +325,20 @@ ul.support-right li i.tele{
 	font-weight: 300;
 }
 a.morebtn{
-	background:#ff5d56;
+	background:rgba(57, 82, 177, 0.69);
 	padding:0.2em 0;
 	display:block;
 	font-size:1.7em;
 	color:#FFF;
-	width:40%;
+	width:14%;
 	margin:0 auto;
-	float: left;
-	border: 1px solid #ff5d56;
+	float: right;
+	border: 1px solid #151414;
 	text-align: center;
 	text-decoration: none;
 }
 a.morebtn:hover{
-	background: none;
+	background: rgba(57, 82, 177, 0.69);
 	border: 1px solid #000;
 	color:#000;
 }
@@ -352,8 +352,8 @@ a.at-in{
   margin: 1em 0 0 20em;
 }
 a.at-in:hover{
-	background: #ff5d56;
-	border: 1px solid #ff5d56;
+	background: rgba(57, 82, 177, 0.69);;
+	border: 1px solid #151414;
 	color:#fff;
 }
 /*----*/
@@ -395,7 +395,7 @@ a.shoe h3{
   	right: 0;
 }
 .content-top {
-  padding: 3em 0;
+  padding: 2em 0;
 }
 .col-top-bottom{
 	background: #696767;
@@ -526,7 +526,7 @@ h2.resp-accordion {
 	padding:2em 1em;
 }
 .img-top {
-	float: left;
+	float:right;
 	width: 33.33%;
 	  position: relative;
 }
@@ -625,7 +625,7 @@ span.dollor{
   display: inline-block;
 }
 .agency {
-  padding: 15em 0 0;
+  padding: 5em 0 0;
 }
 .img-top:hover .tab_desc{
 	display: block;
@@ -941,7 +941,7 @@ span.price-in small{
 	display: inline-block;
 }
 .footer-bottom {
-  margin: 4em 0 0;
+  margin: 1em 0 0;
 }
 .indo {
   padding: 1em 0em 0 3em;
@@ -951,7 +951,7 @@ span.price-in small{
 	float:left;
 }
 .logo-the{
-	float:right;
+	float:left;
 	  width: 65%;
 }
 .logo-the h4{
@@ -1043,7 +1043,7 @@ p.footer-class a:hover{
   padding: 0;
 }
 .back{
-	background: url(../images/product.jpg) 0px 0px;
+	background: url(../images/fondo.jpg) 0px 0px;
   width: 100%;
   background-size: cover;
   min-height: 200px;
@@ -1217,7 +1217,7 @@ h3.best {
 }
 /*----*/
 .product-middle{
-	background: url(../images/product1.jpg) center;
+	background: url(../images/) center;
   width: 100%;
   min-height: 45px;
   display: block;
@@ -1574,9 +1574,9 @@ width: 29%;
     float:left;
 }
 .bottom-grid1{
-background: url(../images/product2.jpg) center ;
+background: url(../images/Img2.jpg) center ;
   width: 100%;
-  min-height: 311px;
+  min-height: 11px;
   display: block;
   background-size: cover;
   text-align: left;
@@ -1823,7 +1823,7 @@ a.add-re:hover{
 /*--contact--*/
 .contact-top h3,.contact-top-in h3{
 	font-size: 1.2em;
-	color: #ff5d56;
+	color: #4d90fe;
 	text-transform: uppercase;
 	font-weight: 600;
 	padding:0 0 1em;
@@ -1893,7 +1893,7 @@ a.add-re:hover{
 	padding: 0;
 }
 .login-left h3, .login-right h3 {
-	color: #ff5d56;
+	color:#2334B5;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -1909,7 +1909,7 @@ a.add-re:hover{
 
 }
 .acount-btn {
-	background:#ff5d56;
+	background:rgba(57, 82, 177, 0.69);
 	color: #FFF;
 	font-size: 0.9em;
 	padding: 0.7em 1.2em;
@@ -1919,7 +1919,7 @@ a.add-re:hover{
 	-o-transition: 0.5s all;
 	display: inline-block;
 	text-transform: uppercase;
-	border: 1px solid #ff5d56;
+	border: 1px solid  #151414;
 }
 .acount-btn:hover, .login-right input[type="submit"]:hover{
 	background:none;
@@ -1942,16 +1942,16 @@ a.add-re:hover{
 .login-right input[type="text"] {
 	border: 1px solid #000;
 	outline:none;
-	width: 100%;
+	width: 50%;
 	font-size:0.9em;
 	padding:10px;
 		
 }
 .login-right input[type="text"]:hover {
-		border: 1px solid #ff5d56;
+		border: 1px solid #0A1454;
 }
 .login-right input[type="submit"] {
-	background:#ff5d56;
+	background:rgba(57, 82, 177, 0.69);;
 	color: #FFF;
 	font-size: 1em;
 	padding: 0.5em 1.2em;
@@ -1963,7 +1963,7 @@ a.add-re:hover{
 	text-transform: uppercase;
 	border:none;
 	outline:none;
-	border: 1px solid #ff5d56;
+	border: 1px solid ##151414;
 }
 a.forgot {
 	font-size: 0.8125em;
@@ -1978,7 +1978,7 @@ a.forgot {
   margin: 4em 0;
 }
 .register h3 {
-	color: #ff5d56;
+	color: #4d90fe;
 	font-size: 1.1em;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -1995,15 +1995,15 @@ a.forgot {
 .register input[type="text"] {
 	border: 1px solid #000;
 	outline:none;
-	width: 100%;
+	width: 50%;
 	font-size:0.9em;
 	padding:10px;
 }
 .register input[type="text"]:hover {
-		border: 1px solid #ff5d56;
+		border: 1px solid #000000;
 }
 .register  input[type="submit"] {
-	background: #ff5d56;
+	background: rgba(57, 82, 177, 0.69);;
 	color:#fff;
 	font-size:1.1em;
 	border:none;
@@ -2015,7 +2015,7 @@ a.forgot {
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
-	border: 1px solid #ff5d56;
+	border: 1px solid #000;
 	font-family: 'Roboto Slab', serif;
 }
 .register input[type="submit"]:hover{

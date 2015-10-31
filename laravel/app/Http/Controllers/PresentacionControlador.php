@@ -1,14 +1,13 @@
 <?php
-//@$nombre = $_POST['nombre'];
 
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Categoria as Categoria;
+use App\Presentacion as Presentacion;
 
-class CategoriaControlador extends Controller
+class PresentacionControlador extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +16,7 @@ class CategoriaControlador extends Controller
      */
     public function index()
     {
-       // return view('index');
+        //
     }
 
     /**
@@ -27,7 +26,7 @@ class CategoriaControlador extends Controller
      */
     public function create($nombre)
     {
-       $categoria = Categoria::create(['nombre' => $nombre]);     
+        $presentacion = Presentacion::create(['nombre' => $nombre]);     
     }
 
     /**
@@ -49,10 +48,10 @@ class CategoriaControlador extends Controller
      */
     public function show($nombre)
     {
-        $cat=Categoria::where('nombre',$nombre)->get();
-        foreach ($cat as $cat) {
-            print_r($cat->nombre);
-        }   
+        $pres=Presentacion::where('nombre',$nombre)->get();
+        foreach ($pres as $pres) {
+            print_r($pres->nombre);
+        }
     }
 
     /**
@@ -63,7 +62,7 @@ class CategoriaControlador extends Controller
      */
     public function edit($id)
     {
-        
+        //
     }
 
     /**
@@ -75,9 +74,9 @@ class CategoriaControlador extends Controller
      */
     public function update($id,$nombre)
     {
-        $categoria = Categoria::find($id);
-        $categoria->nombre = $nombre;
-        $categoria->save();
+        $presentacion = Presentacion::find($id);
+        $presentacion->nombre = $nombre;
+        $presentacion->save();
     }
 
     /**
@@ -86,8 +85,8 @@ class CategoriaControlador extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($idcategoria)
+    public function destroy($id)
     {
-        Categoria::destroy($idcategoria);
+         Presentacion::destroy($id);
     }
 }

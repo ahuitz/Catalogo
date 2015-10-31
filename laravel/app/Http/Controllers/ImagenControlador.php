@@ -1,14 +1,12 @@
 <?php
-//@$nombre = $_POST['nombre'];
 
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Categoria as Categoria;
 
-class CategoriaControlador extends Controller
+class ImagenControlador extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,7 +15,7 @@ class CategoriaControlador extends Controller
      */
     public function index()
     {
-       // return view('index');
+        //
     }
 
     /**
@@ -25,9 +23,9 @@ class CategoriaControlador extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create($nombre)
+    public function create()
     {
-       $categoria = Categoria::create(['nombre' => $nombre]);     
+        //
     }
 
     /**
@@ -47,12 +45,9 @@ class CategoriaControlador extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($nombre)
+    public function show($id)
     {
-        $cat=Categoria::where('nombre',$nombre)->get();
-        foreach ($cat as $cat) {
-            print_r($cat->nombre);
-        }   
+        //
     }
 
     /**
@@ -63,7 +58,7 @@ class CategoriaControlador extends Controller
      */
     public function edit($id)
     {
-        
+        //
     }
 
     /**
@@ -73,11 +68,9 @@ class CategoriaControlador extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update($id,$nombre)
+    public function update(Request $request, $id)
     {
-        $categoria = Categoria::find($id);
-        $categoria->nombre = $nombre;
-        $categoria->save();
+        //
     }
 
     /**
@@ -86,8 +79,8 @@ class CategoriaControlador extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($idcategoria)
+    public function destroy($id)
     {
-        Categoria::destroy($idcategoria);
+        //
     }
 }
