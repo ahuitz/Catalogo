@@ -12,6 +12,7 @@
 
 Route::resource('categoria','CategoriaControlador');*/
 Route::get('/','procatalogo@index');
+<<<<<<< HEAD
 //Route::get('iniciarsesion','procatalogo@iniciarsesion');
 //rutas para CRUD categorias
 Route::get('categoria/crear/{nombre}','CategoriaControlador@create');
@@ -37,3 +38,7 @@ Route::get('producto/ver/{nombre}','ProductoControlador@show');
 //Route::get('movie/destroy/{id}', ['as' => 'movie/destroy', 'uses'=>'MovieController@destroy']);
 //ruta para realizar busqueda de registros.
 //Route::post('movie/search', ['as' => 'movie/search', 'uses'=>'MovieController@search']);
+=======
+Route::get('iniciarsesion','procatalogo@iniciarsesion');
+Route::get('procatalogo','iniciarsesion@procatalogo');
+>>>>>>> 5d7bf70c2d135ff127e5bcaec13881025a3b1d1e

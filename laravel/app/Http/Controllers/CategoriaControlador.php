@@ -25,9 +25,16 @@ class CategoriaControlador extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function create($nombre)
     {
-       $categoria = Categoria::create(['nombre' => $nombre]);     
+       $categoria = Categoria::create(['nombre' => $nombre]);    
+    } 
+
+    public function iniciar()
+    {
+        return view('index');
+
     }
 
     /**

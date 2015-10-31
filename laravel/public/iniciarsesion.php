@@ -174,7 +174,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     				</div>
 				</li-->
 				
+<<<<<<< HEAD
 				<li><a  href="contact.php">Contacto</a>
+=======
+				<li><a  href="contact.html">Contacto</a>
+>>>>>>> 5d7bf70c2d135ff127e5bcaec13881025a3b1d1e
 					
 				</li>
 		 </ul> 

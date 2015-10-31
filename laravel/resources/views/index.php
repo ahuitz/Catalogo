@@ -57,7 +57,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<li ><span ><i class="tele-in"> </i> (502) 77611752.</span></li>			
 				</ul>
 				<ul class=" support-right"> 
+<<<<<<< HEAD
 					<li ><a href="iniciarsesion.php" ><i class="men"> </i>Iniciar sesión</a></li> <!--referencia a plantilla login-->
+=======
+					<li ><a href="iniciarsesion.php" ><i class="men"> </i>Iniciar sesion</a></li> <!--referencia a plantilla login-->
+>>>>>>> 5d7bf70c2d135ff127e5bcaec13881025a3b1d1e
 					</ul>
 				<div class="clearfix"> </div>
 			</div>
